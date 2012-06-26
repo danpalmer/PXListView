@@ -45,7 +45,6 @@
         }
     }
     
-    [cellNib release];
     
     return cell;
 }
@@ -75,11 +74,6 @@
 }
 
 
-- (void)dealloc
-{
-	[_reusableIdentifier release];
-	[super dealloc];
-}
 
 #pragma mark -
 #pragma mark Handling Selection
@@ -157,7 +151,7 @@
 
 -(NSArray*)	accessibilityAttributeNames
 {
-	NSMutableArray*	attribs = [[[super accessibilityAttributeNames] mutableCopy] autorelease];
+	NSMutableArray*	attribs = [[super accessibilityAttributeNames] mutableCopy];
 	
 	[attribs addObject: NSAccessibilityRoleAttribute];
 	[attribs addObject: NSAccessibilityEnabledAttribute];

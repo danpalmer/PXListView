@@ -14,11 +14,11 @@
 
 @interface PXListDocumentView : NSView
 {
-	PXListView				*_listView;
+	PXListView				*__weak _listView;
 	PXListViewDropHighlight	_dropHighlight;
 }
 
-@property (assign) PXListView				*listView;
+@property (weak) PXListView				*listView;
 @property (assign) PXListViewDropHighlight	dropHighlight;
 
 -(void)	setDropHighlight: (PXListViewDropHighlight)inState;
