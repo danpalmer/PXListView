@@ -8,7 +8,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "PXListView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.22"
   s.summary      = "An optimized Cocoa list view for Mac OS X 10.5 and greater."
   s.homepage     = "https://github.com/danpalmer/PXListView"
   s.authors		 = {"Do not use this repo, authors are listed in readme" => "test@example.com"}
