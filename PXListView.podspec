@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/danpalmer/PXListView"
   s.authors		 = {"Do not use this repo, authors are listed in readme" => "test@example.com"}
   s.license      = 'MIT'
-  s.source       = { :git => "https://github.com/danpalmer/PXListView.git", :commit => "6ad3dd856b86fb90accc7ebb208bcfbc3046ca32" }
+  s.source       = { :git => "https://github.com/danpalmer/PXListView.git", :commit => "63b3f78d66d70437b5c82e0dbb5521e116439d0a" }
   s.platform     = :osx, '10.8'
   s.source_files = 'Classes', 'Classes/**/PX*.{h,m}'
 end
