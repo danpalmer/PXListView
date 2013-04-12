@@ -49,7 +49,7 @@
 
 @property (nonatomic, unsafe_unretained) IBOutlet id <PXListViewDelegate> delegate;
 
-@property (nonatomic) NSIndexSet *selectedRows;
+@property (nonatomic, retain) NSIndexSet *selectedRows;
 @property (nonatomic, assign) NSUInteger selectedRow;
 
 @property (nonatomic, assign) BOOL allowsEmptySelection;
@@ -60,7 +60,7 @@
 @property (nonatomic, assign) BOOL usesLiveResize;
 
 - (void)reloadData;
--(void)reloadRowAtIndex:(NSInteger)inIndex;
+- (void)reloadRowAtIndex:(NSInteger)inIndex;
 
 - (PXListViewCell*)dequeueCellWithReusableIdentifier:(NSString*)identifier;
 

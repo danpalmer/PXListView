@@ -29,9 +29,7 @@
 
 - (void)dealloc
 {
-	[titleLabel release], titleLabel=nil;
-    
-	[super dealloc];
+	titleLabel=nil;
 }
 
 #pragma mark -
@@ -65,7 +63,7 @@
 
 - (NSArray*)accessibilityAttributeNames
 {
-	NSMutableArray*	attribs = [[[super accessibilityAttributeNames] mutableCopy] autorelease];
+	NSMutableArray*	attribs = [[super accessibilityAttributeNames] mutableCopy];
 	
 	[attribs addObject: NSAccessibilityRoleAttribute];
 	[attribs addObject: NSAccessibilityDescriptionAttribute];
