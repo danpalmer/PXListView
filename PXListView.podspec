@@ -8,12 +8,12 @@
 #
 Pod::Spec.new do |s|
   s.name         = "PXListView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "An optimized Cocoa list view for Mac OS X 10.5 and greater."
   s.homepage     = "https://github.com/danpalmer/PXListView"
   s.authors		 = {"Do not use this repo, authors are listed in readme" => "test@example.com"}
   s.license      = 'MIT'
-  s.source       = { :git => "https://github.com/danpalmer/PXListView.git", :commit => "edff16ed89fcd5b210478a48a1cd2f3ff9ea82fa" }
+  s.source       = { :git => "https://github.com/danpalmer/PXListView.git", :commit => "6b1be1e8ef23c76e81b6df976411821740b1a17d" }
   s.platform     = :osx, '10.8'
   s.source_files = 'Classes', 'Classes/**/*.{h,m}'
   s.requires_arc = true
