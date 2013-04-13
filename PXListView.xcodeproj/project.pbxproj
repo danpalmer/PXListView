@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372D23C41718D8AC004BAB52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 372D23C31718D8AC004BAB52 /* AppDelegate.m */; };
+		372D23C71718D8BC004BAB52 /* MyListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 372D23C61718D8BC004BAB52 /* MyListViewCell.m */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D25DDA7F133F58A20086783B /* PXListView+UserInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = D25DDA7E133F58A10086783B /* PXListView+UserInteraction.m */; };
-		D26669CB11B1B2F1007597F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D26669CA11B1B2F1007597F1 /* AppDelegate.m */; };
 		D26669D211B1B302007597F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D26669CE11B1B302007597F1 /* InfoPlist.strings */; };
 		D26669D311B1B302007597F1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26669D011B1B302007597F1 /* MainMenu.xib */; };
 		D27858D211B1B5EA00F1CF30 /* PXListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D27858D111B1B5EA00F1CF30 /* PXListView.m */; };
 		D27858D511B1B5FC00F1CF30 /* PXListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D27858D411B1B5FC00F1CF30 /* PXListViewCell.m */; };
 		D278592411B1BA6C00F1CF30 /* PXListDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D278592311B1BA6C00F1CF30 /* PXListDocumentView.m */; };
-		D278597011B1BBE800F1CF30 /* MyListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D278596F11B1BBE800F1CF30 /* MyListViewCell.m */; };
 		D279A64411B4E95600771B2A /* PXListView+Private.h in Resources */ = {isa = PBXBuildFile; fileRef = D279A64311B4E95600771B2A /* PXListView+Private.h */; };
 		D2BED6C01320E08D00E1D0D3 /* MyListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2BED6BF1320E08D00E1D0D3 /* MyListViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -28,12 +28,14 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		372D23C21718D8AC004BAB52 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DemoApp/AppDelegate.h; sourceTree = "<group>"; };
+		372D23C31718D8AC004BAB52 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DemoApp/AppDelegate.m; sourceTree = "<group>"; };
+		372D23C51718D8BC004BAB52 /* MyListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyListViewCell.h; path = DemoApp/MyListViewCell.h; sourceTree = "<group>"; };
+		372D23C61718D8BC004BAB52 /* MyListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyListViewCell.m; path = DemoApp/MyListViewCell.m; sourceTree = "<group>"; };
 		55B9AC9E11EA384C00416532 /* PXListViewDropHighlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXListViewDropHighlight.h; path = Classes/PXListViewDropHighlight.h; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* PXListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25DDA7D133F58A10086783B /* PXListView+UserInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PXListView+UserInteraction.h"; path = "Classes/PXListView+UserInteraction.h"; sourceTree = "<group>"; };
 		D25DDA7E133F58A10086783B /* PXListView+UserInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PXListView+UserInteraction.m"; path = "Classes/PXListView+UserInteraction.m"; sourceTree = "<group>"; };
-		D26669C911B1B2F1007597F1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
-		D26669CA11B1B2F1007597F1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		D26669CC11B1B2F8007597F1 /* PXListView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PXListView-Info.plist"; path = "Resources/PXListView-Info.plist"; sourceTree = "<group>"; };
 		D26669CF11B1B302007597F1 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D26669D111B1B302007597F1 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -44,8 +46,6 @@
 		D27858D711B1B6D400F1CF30 /* PXListViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXListViewDelegate.h; path = Classes/PXListViewDelegate.h; sourceTree = "<group>"; };
 		D278592211B1BA6C00F1CF30 /* PXListDocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXListDocumentView.h; path = Classes/PXListDocumentView.h; sourceTree = "<group>"; };
 		D278592311B1BA6C00F1CF30 /* PXListDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXListDocumentView.m; path = Classes/PXListDocumentView.m; sourceTree = "<group>"; };
-		D278596E11B1BBE800F1CF30 /* MyListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyListViewCell.h; path = Classes/MyListViewCell.h; sourceTree = "<group>"; };
-		D278596F11B1BBE800F1CF30 /* MyListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyListViewCell.m; path = Classes/MyListViewCell.m; sourceTree = "<group>"; };
 		D279A64311B4E95600771B2A /* PXListView+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PXListView+Private.h"; path = "Classes/PXListView+Private.h"; sourceTree = "<group>"; };
 		D279A65E11B4EB1200771B2A /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; wrapsLines = 1; };
 		D279A6DD11B4EFCD00771B2A /* PXListViewCell+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PXListViewCell+Private.h"; path = "Classes/PXListViewCell+Private.h"; sourceTree = "<group>"; };
@@ -140,8 +140,8 @@
 		D25DDA7B133F569B0086783B /* Demo App */ = {
 			isa = PBXGroup;
 			children = (
-				D26669C911B1B2F1007597F1 /* AppDelegate.h */,
-				D26669CA11B1B2F1007597F1 /* AppDelegate.m */,
+				372D23C21718D8AC004BAB52 /* AppDelegate.h */,
+				372D23C31718D8AC004BAB52 /* AppDelegate.m */,
 				D26669D011B1B302007597F1 /* MainMenu.xib */,
 				D25DDA7C133F56C10086783B /* Custom Cell */,
 				29B97315FDCFA39411CA2CEA /* Supporting Files */,
@@ -152,8 +152,8 @@
 		D25DDA7C133F56C10086783B /* Custom Cell */ = {
 			isa = PBXGroup;
 			children = (
-				D278596E11B1BBE800F1CF30 /* MyListViewCell.h */,
-				D278596F11B1BBE800F1CF30 /* MyListViewCell.m */,
+				372D23C51718D8BC004BAB52 /* MyListViewCell.h */,
+				372D23C61718D8BC004BAB52 /* MyListViewCell.m */,
 				D2BED6BF1320E08D00E1D0D3 /* MyListViewCell.xib */,
 			);
 			name = "Custom Cell";
@@ -244,12 +244,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				D26669CB11B1B2F1007597F1 /* AppDelegate.m in Sources */,
 				D27858D211B1B5EA00F1CF30 /* PXListView.m in Sources */,
 				D27858D511B1B5FC00F1CF30 /* PXListViewCell.m in Sources */,
 				D278592411B1BA6C00F1CF30 /* PXListDocumentView.m in Sources */,
-				D278597011B1BBE800F1CF30 /* MyListViewCell.m in Sources */,
 				D25DDA7F133F58A20086783B /* PXListView+UserInteraction.m in Sources */,
+				372D23C41718D8AC004BAB52 /* AppDelegate.m in Sources */,
+				372D23C71718D8BC004BAB52 /* MyListViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

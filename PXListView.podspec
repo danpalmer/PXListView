@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.source       = { :git => "https://github.com/danpalmer/PXListView.git", :commit => "edff16ed89fcd5b210478a48a1cd2f3ff9ea82fa" }
   s.platform     = :osx, '10.8'
-  s.source_files = 'Classes', 'Classes/**/PX*.{h,m}'
+  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
+  s.requires_arc = true
 end
